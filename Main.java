@@ -1,18 +1,7 @@
-import java.util.Scanner;
+public static void main(String[] args) {
+        LibraryManager library = new LibraryManager();
 
-class SumFiveNumbers {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int totalNumber = 0;
-
-        for (int i = 1; i <= 5; i++) {
-            System.out.print("Enter number " + i + ": ");
-            int number = scanner.nextInt();
-            totalNumber += number;
-        }
-
-        System.out.println("Total Number: " + totalNumber);
-
-        scanner.close();
+        library.showBooks();
+        library.addBook();
+        library.removeBook();
     }
-}
