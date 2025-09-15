@@ -10,7 +10,6 @@ abstract class Pet {
     public abstract void makeSound();
 
     public void displayInfo() {
-        System.out.println("Pet Name: " + name);
-        System.out.println("Age: " + age);
+        System.out.println("Pet Name: " + name + ", Age: " + age);
     }
 }
