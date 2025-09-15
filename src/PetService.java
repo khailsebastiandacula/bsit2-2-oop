@@ -22,6 +22,6 @@ class PetService {
     }
 
     public double calculateFee(String emergencyType) {
-        return 200.0;
+        return 200.0; // flat fee
     }
 }
